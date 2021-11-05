@@ -1,0 +1,166 @@
+{
+  // editor
+  "editor.fontSize": 20,
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#b8baff",
+        }
+      }
+    ]
+  },
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 4,
+  "diffEditor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  
+  //terminal
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+
+// terminal customization
+"workbench.colorCustomizations": {
+  "terminal.background":"#210f3d",
+  "terminal.foreground":"#dddad6",
+  "terminal.ansiBlack":"#1D2021",
+  "terminal.ansiBrightBlack":"#857c75",
+  "terminal.ansiBrightBlue":"#0D6678",
+  "terminal.ansiBrightCyan":"#8BA59B",
+  "terminal.ansiBrightGreen":"#237e02",
+  "terminal.ansiBrightMagenta":"#be5696",
+  "terminal.ansiBrightRed":"#FB543F",
+  "terminal.ansiBrightWhite":"#FDF4C1",
+  "terminal.ansiBrightYellow":"#FAC03B",
+  "terminal.ansiBlue":"#00a1f9",
+  "terminal.ansiCyan": "#8BA59B",
+  "terminal.ansiGreen":"#95C085",
+  "terminal.ansiMagenta":"#dd2a57",
+  "terminal.ansiRed":"#FB543F",
+  "terminal.ansiWhite":"#e0be8e",
+  "terminal.ansiYellow":"#FAC03B",
+  "terminal.selectionBackground": "#b362ff",
+  "terminal.cursorColor": "#fad000"
+},
+"terminal.integrated.defaultProfile.windows": "Git Bash",
+"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+"liveServer.settings.ChromeDebuggingAttachment": false,
+"liveServer.settings.host": "localhost",
+"security.workspace.trust.enabled": false,
+"explorer.confirmDelete": false,
+"liveServer.settings.donotVerifyTags": true,
+"emmet.syntaxProfiles": {
+  
+  "html" : {
+    "filters" :"html, c"
+  }
+  
+
+},
+"emmet.preferences": {
+  "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
+},
+
+
+
+"emmet.includeLanguages": {
+  "javascript" : "javascriptreact"
+},
+
+"intelephense.stubs": [
+  "apache",
+  "bcmath",
+  "bz2",
+  "calendar",
+  "com_dotnet",
+  "Core",
+  "ctype",
+  "curl",
+  "date",
+  "dba",
+  "dom",
+  "enchant",
+  "exif",
+  "FFI",
+  "fileinfo",
+  "filter",
+  "fpm",
+  "ftp",
+  "gd",
+  "gettext",
+  "gmp",
+  "hash",
+  "iconv",
+  "imap",
+  "intl",
+  "json",
+  "ldap",
+  "libxml",
+  "mbstring",
+  "meta",
+  "mysqli",
+  "oci8",
+  "odbc",
+  "openssl",
+  "pcntl",
+  "pcre",
+  "PDO",
+  "pdo_ibm",
+  "pdo_mysql",
+  "pdo_pgsql",
+  "pdo_sqlite",
+  "pgsql",
+  "Phar",
+  "posix",
+  "pspell",
+  "readline",
+  "Reflection",
+  "session",
+  "shmop",
+  "SimpleXML",
+  "snmp",
+  "soap",
+  "sockets",
+  "sodium",
+  "SPL",
+  "sqlite3",
+  "standard",
+  "superglobals",
+  "sysvmsg",
+  "sysvsem",
+  "sysvshm",
+  "tidy",
+  "tokenizer",
+  "xml",
+  "xmlreader",
+  "xmlrpc",
+  "xmlwriter",
+  "xsl",
+  "Zend OPcache",
+  "zip",
+  "zlib",
+  "wordpress"
+],
+"intelephense.diagnostics.undefinedTypes": false,
+"[javascript]": {
+  "editor.defaultFormatter": "HookyQR.beautify"
+},
+"workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨",
+"html-css-class-completion.enableEmmetSupport": true,
+"[html]": {
+  "editor.defaultFormatter": "HookyQR.beautify"
+},
+"explorer.confirmDragAndDrop": false,
+"javascript.updateImportsOnFileMove.enabled": "always"
+}
